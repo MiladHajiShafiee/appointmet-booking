@@ -1,4 +1,4 @@
-# Milad's Recipe
+# Appointment Booking
 
 This is my Project for **appointment booking**, I used **[React js](https://reactjs.org/), [React Naitve](https://reactnative.dev/), [Node js](https://nodejs.org/en/), [Express js](http://expressjs.com/), [Mongoose js](https://mongoosejs.com/), and [MongoDB](https://www.mongodb.com/)**, it is a full-stack **MERN** Project.
 
