@@ -1,0 +1,132 @@
+.header {
+    display: flex;
+    border-bottom: 1px solid lightgray;
+}
+
+.title {
+    width: 95%;
+    color: dimgray;
+    padding-left: 1rem;
+}
+
+.add-slot {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid lightgray;
+}
+
+.add-button {
+    border: none;
+    padding: 0.5rem 1.5rem;
+    background-color: pink;
+}
+
+.slots-list,
+.appointments-list {
+    height: 70%;
+    display: flex;
+    width: 100%;
+    overflow-y: scroll;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
+}
+
+#appointment-list {
+    height: 90%;
+}
+
+.slot-item {
+    width: 90%;
+    display: flex;
+    padding: 0 1rem;
+    margin-top: 1rem;
+    align-items: center;
+    /* background-color: lawngreen; */
+    border-bottom: 1px solid lightgray;
+}
+
+.slot-item-time {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.appointment-item {
+    width: 90%;
+    display: flex;
+    padding: 1rem;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+}
+.appointment-item-request {
+    width: 100%;
+    display: flex;
+}
+
+#time-text {
+    width: 90%;
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+}
+
+#client {
+    color: darkorchid;
+}
+
+.request-button-container {
+    width: 14rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.loading {
+    width: 100%;
+    height: 100%;
+    background-color: #eaeaea;
+}
+
+.preposition {
+    font-weight: bold;
+    font-size: 0.85rem;
+    color: darkorchid;
+}
+
+.reserved {
+    right: 7rem;
+    padding: 5px;
+    color: white;
+    font-size: 0.6rem;
+    border-radius: 3px;
+    background-color: orange;
+}
+
+.status {
+    text-align: center;
+    width: 3.5rem;
+    color: white;
+    padding: 0.5rem;
+    font-size: 0.7rem;
+    border-radius: 0.2rem;
+}
+
+#at {
+    color: darkorchid;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+}
+
+.logout {
+    width: 9%;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    align-items: center;
+}
