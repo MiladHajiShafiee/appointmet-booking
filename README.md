@@ -47,7 +47,7 @@ This is my Project for **appointment booking**, I used **[React js](https://reac
 
     > yarn start or npm start
 
-1. Now you can log in to the web client application with one of the accounts in the backend/data/seller.js and also can log in to the mobile client application with one of the accounts in the backend/data/clients.js.
+1. Now you can log in to the web client application with one of the accounts in the _backend/data/seller.js_ and also can log in to the mobile client application with one of the accounts in the _backend/data/clients.js_.
 
 # License
 
