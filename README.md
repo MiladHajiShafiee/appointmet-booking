@@ -2,7 +2,6 @@
 
 This is my Project for **appointment booking**, I used **[React js](https://reactjs.org/), [React Naitve](https://reactnative.dev/), [Node js](https://nodejs.org/en/), [Express js](http://expressjs.com/), [Mongoose js](https://mongoosejs.com/), and [MongoDB](https://www.mongodb.com/)**, it is a full-stack **MERN** Project.
 
-
 ![client](https://user-images.githubusercontent.com/54850998/108830168-4d991680-75de-11eb-8192-82107a6b2fdb.gif)
 ![mobile](https://user-images.githubusercontent.com/54850998/108830485-ac5e9000-75de-11eb-9a62-09de20d004d7.gif)
 
@@ -32,6 +31,14 @@ This is my Project for **appointment booking**, I used **[React js](https://reac
 
     > npx react-native run-android
 
+1. In the cloned project root directory run:
+
+    > npm run data:import
+
+    or
+
+    > yarn data:import
+
 1. After all start your server, client, and mobile apps with these commands in order:
 
     > npm run server
@@ -39,6 +46,8 @@ This is my Project for **appointment booking**, I used **[React js](https://reac
     > npm start
 
     > yarn start or npm start
+
+1. Now you can log in to the web client application with one of the accounts in the backend/data/seller.js and also can log in to the mobile client application with one of the accounts in the backend/data/clients.js.
 
 # License
 
