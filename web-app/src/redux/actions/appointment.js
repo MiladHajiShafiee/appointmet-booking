@@ -2,11 +2,17 @@ import axios from 'axios';
 import * as types from '../types/appointment';
 
 export const listAppointments = () => async (dispatch, getState) => {
-    const {
-        sellerLogin: {
-            sellerInfo: { token, _id },
-        },
-    } = getState();
+    const state = getState();
+    const _id =
+        state.sellerLogin &&
+        state.sellerLogin.sellerInfo &&
+        state.sellerLogin.sellerInfo._id &&
+        state.sellerLogin.sellerInfo._id;
+    const token =
+        state.sellerLogin &&
+        state.sellerLogin.sellerInfo &&
+        state.sellerLogin.sellerInfo.token &&
+        state.sellerLogin.sellerInfo.token;
 
     try {
         dispatch({ type: types.LIST_APPOINTMENTS_REQUEST });
