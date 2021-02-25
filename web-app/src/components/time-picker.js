@@ -27,8 +27,8 @@ export default function TimePickers(props) {
         <form className={classes.container} noValidate>
             <TextField
                 size='small'
-                value={time}
                 id='datetime-local'
+                defaultValue={time}
                 type='datetime-local'
                 className={classes.textField}
                 inputProps={{
