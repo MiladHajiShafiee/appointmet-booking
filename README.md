@@ -1,6 +1,6 @@
 # Appointment Booking
 
-This is my Project for **appointment booking**, I used **[React js](https://reactjs.org/), [React Naitve](https://reactnative.dev/), [Node js](https://nodejs.org/en/), [Express js](http://expressjs.com/), [Mongoose js](https://mongoosejs.com/), and [MongoDB](https://www.mongodb.com/)**, it is a full-stack **MERN** Project.
+This Project is for **appointment booking**, In this project, technologies like **[React js](https://reactjs.org/), [React Naitve](https://reactnative.dev/), [Node js](https://nodejs.org/en/), [Express js](http://expressjs.com/), [Mongoose js](https://mongoosejs.com/), and [MongoDB](https://www.mongodb.com/)** are used, it is a full-stack **MERN** Project.
 
 In this project, you can create and delete time slots and accept or reject appointments as a seller, and as a client, you can search in sellers and send a reservation request to sellers for appointments.
 
