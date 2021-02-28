@@ -6,6 +6,8 @@ In this project, you can create and delete time slots and accept or reject appoi
 
 ![client](https://user-images.githubusercontent.com/54850998/108830168-4d991680-75de-11eb-8192-82107a6b2fdb.gif)
 ![mobile](https://user-images.githubusercontent.com/54850998/108830485-ac5e9000-75de-11eb-9a62-09de20d004d7.gif)
+![booking](https://user-images.githubusercontent.com/54850998/109420486-08af1e80-79e8-11eb-8e89-4048f0b92bdd.png)
+
 
 # How to use
 
